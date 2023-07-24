@@ -16,7 +16,7 @@ function readAllMembers(req, res) {
 function readSpecificMember(req, res) {
     try {
         let {name, email} = req.body;
-
+        console.log(name,email);
         PrcmemberModel.find({"membername": name, "email": email})
             .then(members => {
                 (members.length > 0) 
