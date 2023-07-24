@@ -1,0 +1,22 @@
+[
+    {
+        "bookID":"",
+        "bookname":"",
+        "authorID":"",
+        "GenereID":"",
+        "ISDN no":"",
+        "condition":"good",
+        "purchasedDate":"",
+        "purchasedrate":""
+    },
+    {
+        "bookID":"",
+        "bookname":"",
+        "authorID":"",
+        "GenereID":"",
+        "ISDN no":"",
+        "condition":"good",
+        "purchasedDate":"",
+        "purchasedrate":""
+    }
+]

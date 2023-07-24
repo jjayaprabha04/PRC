@@ -1,0 +1,33 @@
+[
+    {
+        "memberID":"PR12345",
+        "bookID":"",
+        "Rentedfrom": "10-06-2023",
+        "RentedTill":"19-06-2023",
+        "DueDate":"",
+        "TotalFee":"",
+        "Feedue":"",
+        "FeePaid":"yes",
+        "latereturn":"",
+        "Fineamount":"",
+        "Renewal":"yes" ,
+        "Returned":"no"      
+    },
+
+    {
+        "memberID":"PR12345",
+        "bookID":"",
+        "Rentedfrom": "10-06-2023",
+        "RentedTill":"19-06-2023",
+        "DueDate":"",
+        "TotalFee":"",
+        "Feedue":"",
+        "FeePaid":"yes",
+        "latereturn":"",
+        "Fineamount":"",
+        "Renewal":"yes" ,
+        "Returned":"no"      
+    }
+
+    
+]
