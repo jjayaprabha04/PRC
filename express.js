@@ -13,7 +13,10 @@ app.use(express.json()); // this is used when data / payload is sent as req body
     // http://localhost:5000/v1/api/Members
 const MemberRoutes = require("./routes/prcmember-routes");
 app.use("/v1/api/prcmembers", MemberRoutes);
-
+// Default Unhandled Request
+app.use("/*", (req, res) => {
+    res.send("Invalid Route!!!");
+});
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is listening on ${process.env.PORT}`);
